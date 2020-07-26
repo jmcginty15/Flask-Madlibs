@@ -1,0 +1,60 @@
+h1 {
+    background-color: maroon;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+pre {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: auto;
+    padding: 10px;
+    background-color: maroon;
+    color: tan;
+}
+
+body {
+    background-color: tan;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.input-field {
+    text-align: right;
+    font-size: small;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    background-color: maroon;
+    color: tan;
+}
+
+section {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+a {
+    color: tan;
+    text-decoration: none;
+}
+
+a:visited {
+    color: tan;
+}

@@ -26,10 +26,13 @@ Drink more {liquid} and take {substance} as needed."""
 
 @app.route('/')
 def home():
+    """Route to the homepage"""
     return render_template('home.html')
 
 @app.route('/form')
 def form():
+    """Creates a Story instance from the user-selected story and
+    passes the prompts for that story to the form template"""
     story_index = int(request.args['story'])
     global story
     story = Story(prompts[story_index], templates[story_index])
@@ -37,6 +40,7 @@ def form():
 
 @app.route('/story')
 def homepage():
+    """Displays the story with user inputs"""
     inputs = request.args
     story_output = story.generate(inputs)
     return render_template('story.html', story=story_output)

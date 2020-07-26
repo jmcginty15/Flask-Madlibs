@@ -1,3 +1,10 @@
 {% extends 'base.html' %}
 {% block title %}Story{% endblock %}
-{% block content %}<pre>{{story}}</pre>{% endblock %}
+{% block content %}
+<pre>{{story}}</pre>
+<p>
+<form action="/">
+    <button type="submit">Back to homepage</button>
+</form>
+</p>
+{% endblock %}
